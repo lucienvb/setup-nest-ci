@@ -27,6 +27,7 @@ jobs:
           npm install
           npm i @nestjs/cli
           npm i typeorm
+          npm i @nestjs/typeorm
 
       - name: Run tests with Jest
         run: npm test
